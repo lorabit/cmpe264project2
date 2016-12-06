@@ -28,14 +28,14 @@ M = np.linalg.inv(K)
 
 f = K[0][0]
 
-t = -U.transpose()[2]
+rr = -U.transpose()[2]
 # t = np.matmul(np.matmul(np.matmul(U,W),S),U.transpose())
 R = np.dot(np.dot(U,W),VT)
 
 print("R = ")
 print(R)
 print("t = ")
-print(t)
+print(rr)
 
 rl = VT[2]
 # print("rl = ")
@@ -72,14 +72,14 @@ for i in range(len(emask)):
 		# z = np.dot(np.dot(p2c(xl, M, f),emtx),p2c(xr, M, f))
 		# print("ze = "+str(z))
 		plt.plot(xl[0],xl[1],"o",color = 'y')
-		print("depth = "+str(depth(xl, xr, K, M, R, t, rl)))
+		print("depth = "+str(depth(xl, xr, K, M, R, rr, rl)))
 
 
 		# u = np.linalg.inv(R).transpose()
 
 		u = p2c(xr, M, f)
 		print(u)
-		u = np.matmul(R,u) + t
+		u = np.matmul(R,u) + rr
 		print(u)
 		u = np.dot(K, u)
 		print(xl)
