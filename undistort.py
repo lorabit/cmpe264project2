@@ -8,8 +8,9 @@ dist = np.array([[-0.12244297, 0.20499093, 0.00035033, -0.00058871, -0.13275741]
 h,  w = 1856, 2784
 newcameramtx, roi=cv2.getOptimalNewCameraMatrix(mtx,dist,(w,h),1,(w,h))
 
+
 print(mtx)
-print(newcameramtx)
+print(newcameramtx.tolist())
 
 files = os.listdir('multiview')
 for filename in files:
@@ -17,5 +18,6 @@ for filename in files:
 		img = cv2.imread('multiview/'+filename)
 		dst = cv2.undistort(img, mtx, dist, None, newcameramtx)
 		x,y,w,h = roi
+		print(roi)
 		dst = dst[y:y+h, x:x+w]
 		cv2.imwrite('undistorted/'+filename,dst)
