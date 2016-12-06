@@ -28,9 +28,9 @@ M = np.linalg.inv(K)
 
 f = K[0][0]
 
-rr = -U.transpose()[2]
-# t = np.matmul(np.matmul(np.matmul(U,W),S),U.transpose())
-R = np.dot(np.dot(U,W),VT)
+# rr = -U.transpose()[2]
+rr = np.matmul(np.matmul(np.matmul(U,W),S),U.transpose())
+R = np.dot(np.dot(U,W.transpose()),VT)
 
 print("R = ")
 print(R)
@@ -51,7 +51,7 @@ imgplot = plt.imshow(img)
 def depth(xl,xr,K,M,R,rr,rl):
 	pr = np.dot(M,bar(xr))
 	pl = np.dot(M,bar(xl))
-	return f*np.dot(f*R[0] - pr[0]*R[2], rl)/np.dot(f*R[0] - pr[0]*R[2], pl)
+	return f*np.dot(f*R[0] - pr[0]*R[2], rr)/np.dot(f*R[0] - pr[0]*R[2], pl)
 
 def bar(v):
 	u = v+ [1]
@@ -79,7 +79,7 @@ for i in range(len(emask)):
 
 		u = p2c(xr, M, f)
 		print(u)
-		u = np.matmul(R,u) + rr
+		u = np.dot(np.linalg.inv(R),u-rr)
 		print(u)
 		u = np.dot(K, u)
 		print(xl)
@@ -88,4 +88,4 @@ for i in range(len(emask)):
 
 
 plt.autoscale(enable=True, axis='both', tight=True)
-# plt.show()
+plt.show()
