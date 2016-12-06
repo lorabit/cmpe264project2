@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.30)  5 DEC 2016 21:35
+This is pdfTeX, Version 3.14159265-2.6-1.40.16 (TeX Live 2015) (preloaded format=pdflatex 2015.11.30)  5 DEC 2016 22:02
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -481,103 +481,105 @@ Underfull \hbox (badness 10000) in paragraph at lines 78--79
 
  []
 
+
+Underfull \hbox (badness 10000) in paragraph at lines 80--81
+
+ []
+
 <images/undistorted/p1.jpg, id=10, 2782.395pt x 1837.86626pt>
 File: images/undistorted/p1.jpg Graphic file (type jpg)
 
 <use images/undistorted/p1.jpg>
-Package pdftex.def Info: images/undistorted/p1.jpg used on input line 87.
+Package pdftex.def Info: images/undistorted/p1.jpg used on input line 113.
 (pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
 
 <images/undistorted/p2.jpg, id=11, 2782.395pt x 1837.86626pt>
 File: images/undistorted/p2.jpg Graphic file (type jpg)
 
 <use images/undistorted/p2.jpg>
-Package pdftex.def Info: images/undistorted/p2.jpg used on input line 90.
+Package pdftex.def Info: images/undistorted/p2.jpg used on input line 116.
 (pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
 
 <images/undistorted/p3.jpg, id=12, 2782.395pt x 1837.86626pt>
 File: images/undistorted/p3.jpg Graphic file (type jpg)
 
 <use images/undistorted/p3.jpg>
-Package pdftex.def Info: images/undistorted/p3.jpg used on input line 93.
+Package pdftex.def Info: images/undistorted/p3.jpg used on input line 119.
 (pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
 
 <images/pick.png, id=13, 712.6625pt x 500.87125pt>
 File: images/pick.png Graphic file (type png)
  <use images/pick.png>
-Package pdftex.def Info: images/pick.png used on input line 102.
+Package pdftex.def Info: images/pick.png used on input line 128.
 (pdftex.def)             Requested size: 237.13594pt x 166.6637pt.
 
 <images/epipolar/1-2-1.png, id=15, 578.16pt x 433.62pt>
 File: images/epipolar/1-2-1.png Graphic file (type png)
 
 <use images/epipolar/1-2-1.png>
-Package pdftex.def Info: images/epipolar/1-2-1.png used on input line 112.
+Package pdftex.def Info: images/epipolar/1-2-1.png used on input line 138.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 
 <images/epipolar/1-2-2.png, id=16, 578.16pt x 433.62pt>
 File: images/epipolar/1-2-2.png Graphic file (type png)
 
 <use images/epipolar/1-2-2.png>
-Package pdftex.def Info: images/epipolar/1-2-2.png used on input line 115.
+Package pdftex.def Info: images/epipolar/1-2-2.png used on input line 141.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 
 <images/epipolar/1-3-1.png, id=17, 578.16pt x 433.62pt>
 File: images/epipolar/1-3-1.png Graphic file (type png)
 
 <use images/epipolar/1-3-1.png>
-Package pdftex.def Info: images/epipolar/1-3-1.png used on input line 118.
+Package pdftex.def Info: images/epipolar/1-3-1.png used on input line 144.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 
 <images/epipolar/1-3-3.png, id=18, 578.16pt x 433.62pt>
 File: images/epipolar/1-3-3.png Graphic file (type png)
 
 <use images/epipolar/1-3-3.png>
-Package pdftex.def Info: images/epipolar/1-3-3.png used on input line 121.
+Package pdftex.def Info: images/epipolar/1-3-3.png used on input line 147.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 
 <images/epipolar/2-3-2.png, id=19, 578.16pt x 433.62pt>
 File: images/epipolar/2-3-2.png Graphic file (type png)
 
 <use images/epipolar/2-3-2.png>
-Package pdftex.def Info: images/epipolar/2-3-2.png used on input line 124.
+Package pdftex.def Info: images/epipolar/2-3-2.png used on input line 150.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 
 <images/epipolar/2-3-3.png, id=20, 578.16pt x 433.62pt>
 File: images/epipolar/2-3-3.png Graphic file (type png)
 
 <use images/epipolar/2-3-3.png>
-Package pdftex.def Info: images/epipolar/2-3-3.png used on input line 127.
+Package pdftex.def Info: images/epipolar/2-3-3.png used on input line 153.
 (pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 135.
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 161.
 
 
-LaTeX Warning: Reference `sec:create' on page 1 undefined on input line 135.
+LaTeX Warning: Reference `sec:create' on page 1 undefined on input line 161.
 
 
-LaTeX Warning: Reference `sec:reproduce' on page 1 undefined on input line 135.
+LaTeX Warning: Reference `sec:reproduce' on page 1 undefined on input line 161.
 
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 134--136
+Underfull \hbox (badness 10000) in paragraph at lines 160--162
 
  []
 
 
-Underfull \vbox (badness 5652) has occurred while \output is active []
-
-
-Underfull \hbox (badness 1466) in paragraph at lines 137--138
+Underfull \hbox (badness 1466) in paragraph at lines 163--164
 []\OT1/ptm/m/n/10 Thanks to L[]T[]X for pro-vid-ing such a great doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 137--138
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 141.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 167.
 [1{/usr/local/texlive/2015/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
 
@@ -588,35 +590,37 @@ istorted/p3.jpg> <./images/pick.png>] [2
  <./images/epipolar/1-2-1.png> <./images/epipolar/1-2-2.png> <./images/epipolar
 /1-3-1.png> <./images/epipolar/1-3-3.png> <./images/epipolar/2-3-2.png> <./imag
 es/epipolar/2-3-3.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 141.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 167.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 141.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 141.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 167.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 167.
 
 
 LaTeX Warning: There were undefined references.
 
-
-LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
-
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 141.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 167.
  ) 
 Here is how much of TeX's memory you used:
- 8133 strings out of 493089
- 117735 string characters out of 6134841
- 214876 words of memory out of 5000000
- 11447 multiletter control sequences out of 15000+600000
- 25223 words of font info for 62 fonts, out of 8000000 for 9000
+ 8134 strings out of 493089
+ 117748 string characters out of 6134841
+ 215842 words of memory out of 5000000
+ 11448 multiletter control sequences out of 15000+600000
+ 25730 words of font info for 63 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,9n,48p,437b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 42i,10n,48p,437b,322s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/local/texlive/2015/texmf-dist/fonts/enc/dvips/base/8r.enc}</usr/local/t
-exlive/2015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2
-015/texmf-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-
-dist/fonts/type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (2 pages, 15065347 bytes).
+exlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb></usr/local/te
+xlive/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb></usr/local/tex
+live/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texli
+ve/2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb></usr/local/texlive/
+2015/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></usr/local/texlive/2
+015/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2015/texm
+f-dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2015/texmf-dist/fon
+ts/type1/urw/times/utmr8a.pfb>
+Output written on report.pdf (2 pages, 15105002 bytes).
 PDF statistics:
- 78 PDF objects out of 1000 (max. 8388607)
- 50 compressed objects within 1 object stream
+ 98 PDF objects out of 1000 (max. 8388607)
+ 65 compressed objects within 1 object stream
  23 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 
