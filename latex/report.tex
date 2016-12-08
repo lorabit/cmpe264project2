@@ -243,6 +243,19 @@ $$
 
 \section{Find the extrinsic parameters}
 
+With the essential matrices for different camera pairs, we can now calculate corresponding extrinsic parameters. We first do SVD to each essential matrix.
+$$ U\Sigma V = {\textbf E} $$
+Then we have $$R^R_L = UWV^T \text{ or } UW^TV^T$$
+$$ r^R = U_3 \text{ or } -U_3$$
+$$ r^L = V_3.$$ 
+
+Then the depth of each pixel pair $(x^{S^L}, x^{S^R})$ in the left camera reference system would be
+
+$$ p^L_z = f\frac{(f(R^R_L)^1 - x^R_r(R^R_L)^3){\textbf r}^L}{(f(R^R_L)^1 - x^R_r(R^R_L)^3){\textbf x}^L_l}. $$
+
+However, we are not able to find $(R^R_L, {\textbf r}^L)$ that makes all depth positive. See code \textit{part4.py} for more information.
+
+
 
 \section{Rescale the translation vector}
 After we have found the extrinsic parameters, we obtained the rotation matrices $\textbf{R}_{1}^{2}$, $\textbf{R}_{2}^{3}$, $\textbf{R}_{1}^{3}$, we also obtained the vector $\textbf{r}_{12}^{1}$ representing camera 2 seen by the camera 1, expressed in reference of the camera 1. The same to vector $\textbf{r}_{23}^{2}$ and vector $\textbf{r}_{13}^{1}$ we obtained.
@@ -258,7 +271,7 @@ The outcome of the optimization gave us the value  $\beta = 0.000822176591359$ a
 
 \section{Acknowledgment}
 We did all the project together. However, Ziqiang Wang is mainly responsible for
-Section \ref{sec:create} and Section \ref{sec:reproduce} while Yanan Xie is responsible for the rest parts of this project including providing his professional photography devices.\\
+Section 1 and Section 5 while Yanan Xie is responsible for the rest parts of this project including providing his professional photography devices.\\
 
 Thanks to \LaTeX\ for providing such a great document preparation system. And many appreciates to the authors of Python, numpy, sklearn, OpenCV and matplotlib.\\
 

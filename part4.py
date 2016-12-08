@@ -54,81 +54,105 @@ W = np.array([[0,-1,0],[1,0,0],[0,0,1]])
 
 # emtx = np.matmul(np.matmul(U,[[1,0,0],[0,1,0],[0,0,0]]),VT)
 K = [[2771.214599609375, 0.0, 1387.954468694952], [0.0, 2767.546875, 937.6326279896311], [0.0, 0.0, 1.0]]
-# K = [[2.83973773e+03, 0.00000000e+00, 1.38947081e+03], [0.00000000e+00, 2.83695500e+03, 9.36984169e+02], [0.00000000e+00, 0.00000000e+00, 1.00000000e+00]]
-M = np.linalg.inv(K)
-
-f = K[0][0]
-
-
-<<<<<<< HEAD
-VT_transpose = VT.transpose()
-rl = VT_transpose[2]
-=======
-# rr = np.matmul(np.matmul(np.matmul(U,W),S),U.transpose())
-R = np.matmul(np.matmul(U,W),VT.T).T
-rr = U[2]
-rl = VT[2]
+# M = np.linalg.inv(K)
+f = K[0][0]	
+M = [[1,0,-K[0][2]],[0,1,-K[1][2]],[0,0,f]]
+# print K
+# print M
+# print np.matmul(K,M)
 
 
-print "R = ",R
-print "RT*R = ", np.matmul(R.T,R)
-print 'det(R) = ', np.linalg.det(R)
-print "rr = ",rr
-print "rl = ",rl
+rl = -VT[2]
+
+def depth(xl,xr):
+	# print R
+	pr = p2c(xr)
+	pl = p2c(xl)
+	# print pr, pl
+	d = f*np.dot(f*R[0] - pr[0]*R[2], rl)/np.dot(f*R[0] - pr[0]*R[2], pl)
+	# print trans(pr)
+	# print c2p(trans(pr)), xl
+	return d
+
+def trans(p):
+	return np.dot(R,p)
+
+def bar(v):
+	u = v+ [1]
+	# print v,u
+	return u
+
+def c2p(p):
+	v = np.dot(K,p)
+	return [v[0]/v[2],v[1]/v[2]]
+
+def p2c(pixel):
+	v = np.dot(M,bar(pixel))
+	v = v*f/v[2]
+	return v
 
 
->>>>>>> ff3e245575a29ae27fa1677a18b517ec15a7f780
+def plot(R,rr):
+	img=cv2.imread(img1)
+	imgplot = plt.imshow(img)
+
+
+
+	for i in range(len(emask)):
+		if emask[i] == 1:
+			xl = points1[i].tolist()
+			xr = points2[i].tolist()
+
+			plt.plot(xl[0],xl[1],"o",color = 'y')
+			print("depth = "+str(depth(xl, xr)))
+
+			u = c2p(trans(p2c(xr)))
+			print xl,u
+			plt.plot(u[0],u[1],"x",color = 'r')
+
+
+	plt.autoscale(enable=True, axis='both', tight=True)
+	plt.show()
+
+
+R1, R2 = np.matmul(np.matmul(U,W),V), np.matmul(np.matmul(U,W.T),V)
+
+
+for R,rr in (R1, U.T[2]),(R2,U.T[2]),(R1, -U.T[2]),(R2,-U.T[2]):
+	print 'det(R) = ',np.linalg.det(R)
+	# rl = np.dot(R,rr)
+	valid = True
+	for i in range(len(emask)):
+		if emask[i] == 1:
+			xl = points1[i].tolist()
+			xr = points2[i].tolist()
+			d = depth(xl, xr)
+			print d
+			if d<0:
+				valid = False
+				# break
+	plot(R,rr)
+	exit(0)
+	if valid:
+		print R,rr
+			
+
+
+
+
+# print "R = ",R
+# print "RT*R = ", np.matmul(R.T,R)
+# print 'det(R) = ', np.linalg.det(R)
+# print "rr = ",rr
+# print "rl = ",rl
+
+
+# # print("rl = ")
 # print("rl = ")
-print("rl = ")
-print(rl)
+# print(rl)
 # print("Rrlx - E = ")
 # print(np.matmul(R,[[0,-rl[2],rl[1]],[rl[2],0,-rl[0]],[-rl[1],rl[0],0]])-emtx)
 # print(np.matmul(R.transpose(),R))
 
 
-img=cv2.imread(img1)
-imgplot = plt.imshow(img)
 
-def depth(xl,xr,K,M,R,rr,rl):
-	pr = np.matmul(M,bar(xr))
-	pl = np.matmul(M,bar(xl))
-	return f*np.dot(f*R[0] - pr[0]*R[2], rr)/np.dot(f*R[0] - pr[0]*R[2], pl)
-
-def bar(v):
-	u = v+ [1]
-	return u
-
-def p2c(pixel, M, f):
-	v = np.matmul(M,bar(pixel))
-	v = v*f/v[2]
-	return v
-
-
-for i in range(len(emask)):
-	if emask[i] == 1:
-		xl = points1[i].tolist()
-		xr = points2[i].tolist()
-		# print(bar(xl))
-		# z = np.matmul(np.matmul(bar(xr),fmtx),bar(xl))
-		# print("zf = "+str(z))
-		# z = np.matmul(np.matmul(p2c(xl, M, f),emtx),p2c(xr, M, f))
-		# print("ze = "+str(z))
-		plt.plot(xl[0],xl[1],"o",color = 'y')
-		print("depth = "+str(depth(xl, xr, K, M, R, rr, rl)))
-
-
-		# u = np.linalg.inv(R).transpose()
-
-		u = p2c(xr, M, f)
-		print(u)
-		u = np.matmul(R,u)
-		# u = np.matmul(np.linalg.inv(R),u)+300*rl
-		print(u)
-		u = np.matmul(K, u)
-		print(xl)
-		print(u[0]/u[2],u[1]/u[2])
-		plt.plot([u[0]/u[2]],[u[1]/u[2]],"x",color = 'r')
-
-
-plt.autoscale(enable=True, axis='both', tight=True)
-plt.show()
