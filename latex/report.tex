@@ -57,13 +57,13 @@ The first step of this project is to calibrate the camera. Since we are going to
 
 We learned from the tutorial that the distortion is composed of two differernt parts, radial distortion and tangential distortion. As for the radial distortion, we have 
 
-$x_{distorted} = x(1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})$\\
-$y_{distorted} = y(1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})$
+$$x_{distorted} = x(1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})$$
+$$y_{distorted} = y(1+k_{1}r^{2}+k_{2}r^{4}+k_{3}r^{6})$$
 
 As for the tangental distortion, we have 
 
-$x_{distorted} = x+[2p_{1}xy+p_{2}(r^{2}+2x^{2})]$\\
-$y_{distorted} = y+[p_{1}(r^{2}+2y^{2})+2p_{2}xy]$
+$$x_{distorted} = x+[2p_{1}xy+p_{2}(r^{2}+2x^{2})]$$
+$$y_{distorted} = y+[p_{1}(r^{2}+2y^{2})+2p_{2}xy]$$
 
 So the distortion coefficients we need to find are $k_{1}$, $k_{2}$, $p_{1}$, $p_{2}$, $p_{3}$.
 
@@ -72,21 +72,7 @@ We also learned from the tutorial that the camera intrinsic matrix consist four 
 
 We need a perfect flat surface of the chessboard to be as the standard world coordinate reference system. However, we tried to printed the chessboard picture and glue it onto the flat desk surface, then we take pictures and compute, but the outcome of the calibration is not idea to do undistortion since the printed piece of paper is not perfect flat. So finally we show the chessboard on the full-screen of our Macbook and take pictures and then compute, the intrinsic parameters we got this time is better, this is understandable since the screen is much more perfect flat than the printed paper, and we got much better result in the following undistortion step. There are two key points of taking the chessboard pictures we concluded as we try this process, first is we should full fill each picture we take with the whole chessboard, the second is the surface of the chessboard has to be prefect flat so that all the $Z$ coordinate of the chessboard point respect to the world reference system could be the same. All of these pictures we took for the chessboard is as shown in Figure \ref{fig:chessboard}.
 
-As for the implementation of how to get the intrinsic paremeters, we adapted the $findChessboardCorners( )$ fucntion to find the chessboard corners in each picture we took, if the returned boolean value show that the corners was found in the picture then we add the corners into the $imgpoints[ ]$ list and accordingly make a pair of the world reference system coordinate in the $objpoints[ ]$ list. Then we pass the $imgpoints[ ]$ list and the $objpoints[ ]$ list to the $calibrateCamera( )$ function and we got the camera matrix and the distortion coefficients. 
 
-The camera matrix K is 
-
-$$\textbf{K} =
-\begin{bmatrix}
-2.83973773{\text e+}03&0.00000000{\text e+}00&1.38947081{\text e+}03\\
-0.00000000{\text e+}00&2.83695500{\text e+}03&9.36984169{\text e+}02\\
-0.00000000{\text e+}00&0.00000000{\text e+}00&1.00000000{\text e+}00 
-\end{bmatrix}
-$$
-
-We also have the distortion coefficients after the computation, shown as below
-
-$k_{1} = -0.12244297$, $k_{2} = 0.20499093$, $p_{1} = 0.00035033$, $p_{2} = -0.00058871$, $p_{3} = -0.13275741$
 
 \begin{figure}[t]
 \centering
@@ -131,6 +117,24 @@ $k_{1} = -0.12244297$, $k_{2} = 0.20499093$, $p_{1} = 0.00035033$, $p_{2} = -0.0
 \caption{Chessboard Pictures taken from different view points}
 \label{fig:chessboard}
 \end{figure}
+
+As for the implementation of how to get the intrinsic paremeters, we adapted the $findChessboardCorners( )$ fucntion to find the chessboard corners in each picture we took, if the returned boolean value show that the corners was found in the picture then we add the corners into the $imgpoints[ ]$ list and accordingly make a pair of the world reference system coordinate in the $objpoints[ ]$ list. Then we pass the $imgpoints[ ]$ list and the $objpoints[ ]$ list to the $calibrateCamera( )$ function and we got the camera matrix and the distortion coefficients. 
+
+The camera matrix K is 
+
+$$\textbf{K} =
+\begin{bmatrix}
+2.839{\text e+}03&0.000{\text e+}00&1.389{\text e+}03\\
+0.000{\text e+}00&2.836{\text e+}03&9.369{\text e+}02\\
+0.000{\text e+}00&0.000{\text e+}00&1.000{\text e+}00 
+\end{bmatrix}
+$$
+
+We also have the distortion coefficients after the computation, shown as below
+
+$k_{1} = -0.12244297$, $k_{2} = 0.20499093$, $p_{1} = 0.00035033$, $p_{2} = -0.00058871$, $p_{3} = -0.13275741$
+
+After we obtained all the coefficients we need, we need to check the quality of the calibration by computing the mean square error. The out come of the square error of our project is optimal and the total error value is zero. This could be shown by the outcome of the $part1.py$
 
 
 \section{Take the pictures}
@@ -249,7 +253,7 @@ The next work we do on is to convert all the 3 vectors to unit form. We divided 
 
 After the mathematics performed by the project guidance, we have the formula $| \textbf{r}_{12unit}^{1} + \beta  \textbf{r}_{23unit}^{1} + \gamma  \textbf{r}_{31unit}^{1} |$. In an ideal world, the $| \textbf{r}_{12unit}^{1} + \beta  \textbf{r}_{23unit}^{1} + \gamma  \textbf{r}_{31unit}^{1} |$ should equal to $0$, however in practice due to the error and noise, we just can minimize the value as small as possible. We use the $minimize()$ function imported from $scipy.optimize$ to do the minimization and find the $\beta$ and $\gamma$ value such that the $| \textbf{r}_{12unit}^{1} + \beta  \textbf{r}_{23unit}^{1} + \gamma  \textbf{r}_{31unit}^{1} |$ value is minimized.
 
-The outcome of the optimization gave us the value  $\beta = $ and $\gamma = $, we can also see that by this time $| \textbf{r}_{12unit}^{1} +  \textbf{r}_{23unit}^{1} +  \textbf{r}_{31unit}^{1} | = $ and $| \textbf{r}_{12unit}^{1} + \beta  \textbf{r}_{23unit}^{1} + \gamma  \textbf{r}_{31unit}^{1} | = $, the second is smaller as shown.
+The outcome of the optimization gave us the value  $\beta = 0.000822176591359$ and $\gamma = 1.00011889642$, we can also see that by this time $| \textbf{r}_{12unit}^{1} +  \textbf{r}_{23unit}^{1} +  \textbf{r}_{31unit}^{1} | = 0.999195082441$ and $| \textbf{r}_{12unit}^{1} + \beta  \textbf{r}_{23unit}^{1} + \gamma  \textbf{r}_{31unit}^{1} | = 0.000115952725309$, the second is smaller as shown.
 
 
 \section{Acknowledgment}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  6 DEC 2016 15:17
+This is pdfTeX, Version 3.14159265-2.6-1.40.17 (TeX Live 2016) (preloaded format=pdflatex 2016.5.22)  7 DEC 2016 19:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -482,261 +482,256 @@ File: ot1pcr.fd 2001/06/04 font definitions for OT1/pcr.
 )
 LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <12> not available
 (Font)              Font shape `OT1/ptm/b/n' tried instead on input line 54.
-LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
-(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 79.
-
-Overfull \hbox (27.29764pt too wide) detected at line 85
-[] \OT1/cmr/m/n/10 = []
- []
-
-
-Underfull \hbox (badness 1735) in paragraph at lines 89--90
-[]$\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0
-\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 12244297$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 
-k[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 20499093$\OT1/ptm/m/n/
-10 , $\OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 =
- []
 
 <images/chessboard/p1.jpg, id=5, 2794.44pt x 1862.96pt>
 File: images/chessboard/p1.jpg Graphic file (type jpg)
 
 <use images/chessboard/p1.jpg>
-Package pdftex.def Info: images/chessboard/p1.jpg used on input line 95.
+Package pdftex.def Info: images/chessboard/p1.jpg used on input line 81.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p2.jpg, id=6, 2794.44pt x 1862.96pt>
 File: images/chessboard/p2.jpg Graphic file (type jpg)
 
 <use images/chessboard/p2.jpg>
-Package pdftex.def Info: images/chessboard/p2.jpg used on input line 98.
+Package pdftex.def Info: images/chessboard/p2.jpg used on input line 84.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p3.jpg, id=7, 2794.44pt x 1862.96pt>
 File: images/chessboard/p3.jpg Graphic file (type jpg)
 
 <use images/chessboard/p3.jpg>
-Package pdftex.def Info: images/chessboard/p3.jpg used on input line 101.
+Package pdftex.def Info: images/chessboard/p3.jpg used on input line 87.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p4.jpg, id=8, 2794.44pt x 1862.96pt>
 File: images/chessboard/p4.jpg Graphic file (type jpg)
 
 <use images/chessboard/p4.jpg>
-Package pdftex.def Info: images/chessboard/p4.jpg used on input line 104.
+Package pdftex.def Info: images/chessboard/p4.jpg used on input line 90.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p5.jpg, id=9, 2794.44pt x 1862.96pt>
 File: images/chessboard/p5.jpg Graphic file (type jpg)
 
 <use images/chessboard/p5.jpg>
-Package pdftex.def Info: images/chessboard/p5.jpg used on input line 107.
+Package pdftex.def Info: images/chessboard/p5.jpg used on input line 93.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p6.jpg, id=10, 2794.44pt x 1862.96pt>
 File: images/chessboard/p6.jpg Graphic file (type jpg)
 
 <use images/chessboard/p6.jpg>
-Package pdftex.def Info: images/chessboard/p6.jpg used on input line 110.
+Package pdftex.def Info: images/chessboard/p6.jpg used on input line 96.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p7.jpg, id=11, 2794.44pt x 1862.96pt>
 File: images/chessboard/p7.jpg Graphic file (type jpg)
 
 <use images/chessboard/p7.jpg>
-Package pdftex.def Info: images/chessboard/p7.jpg used on input line 113.
+Package pdftex.def Info: images/chessboard/p7.jpg used on input line 99.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p8.jpg, id=12, 2794.44pt x 1862.96pt>
 File: images/chessboard/p8.jpg Graphic file (type jpg)
 
 <use images/chessboard/p8.jpg>
-Package pdftex.def Info: images/chessboard/p8.jpg used on input line 116.
+Package pdftex.def Info: images/chessboard/p8.jpg used on input line 102.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p9.jpg, id=13, 2794.44pt x 1862.96pt>
 File: images/chessboard/p9.jpg Graphic file (type jpg)
 
 <use images/chessboard/p9.jpg>
-Package pdftex.def Info: images/chessboard/p9.jpg used on input line 119.
+Package pdftex.def Info: images/chessboard/p9.jpg used on input line 105.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p10.jpg, id=14, 2794.44pt x 1862.96pt>
 File: images/chessboard/p10.jpg Graphic file (type jpg)
 
 <use images/chessboard/p10.jpg>
-Package pdftex.def Info: images/chessboard/p10.jpg used on input line 122.
+Package pdftex.def Info: images/chessboard/p10.jpg used on input line 108.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p11.jpg, id=15, 2794.44pt x 1862.96pt>
 File: images/chessboard/p11.jpg Graphic file (type jpg)
 
 <use images/chessboard/p11.jpg>
-Package pdftex.def Info: images/chessboard/p11.jpg used on input line 125.
+Package pdftex.def Info: images/chessboard/p11.jpg used on input line 111.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
 <images/chessboard/p12.jpg, id=16, 2794.44pt x 1862.96pt>
 File: images/chessboard/p12.jpg Graphic file (type jpg)
 
 <use images/chessboard/p12.jpg>
-Package pdftex.def Info: images/chessboard/p12.jpg used on input line 128.
+Package pdftex.def Info: images/chessboard/p12.jpg used on input line 114.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
+LaTeX Font Info:    Font shape `OT1/ptm/bx/n' in size <10> not available
+(Font)              Font shape `OT1/ptm/b/n' tried instead on input line 125.
 
-<images/multiview/p1.jpg, id=18, 2794.44pt x 1862.96pt>
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
+
+
+ <./images/chessboard/p1.jpg> <./images/chessboard/p2.jpg> <./images/chessboard
+/p3.jpg> <./images/chessboard/p4.jpg> <./images/chessboard/p5.jpg> <./images/ch
+essboard/p6.jpg> <./images/chessboard/p7.jpg> <./images/chessboard/p8.jpg> <./i
+mages/chessboard/p9.jpg> <./images/chessboard/p10.jpg> <./images/chessboard/p11
+.jpg> <./images/chessboard/p12.jpg>]
+Underfull \hbox (badness 1735) in paragraph at lines 135--136
+[]$\OML/cmm/m/it/10 k[] \OT1/cmr/m/n/10 = \OMS/cmsy/m/n/10 ^^@\OT1/cmr/m/n/10 0
+\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 12244297$\OT1/ptm/m/n/10 , $\OML/cmm/m/it/10 
+k[] \OT1/cmr/m/n/10 = 0\OML/cmm/m/it/10 :\OT1/cmr/m/n/10 20499093$\OT1/ptm/m/n/
+10 , $\OML/cmm/m/it/10 p[] \OT1/cmr/m/n/10 =
+ []
+
+<images/multiview/p1.jpg, id=44, 2794.44pt x 1862.96pt>
 File: images/multiview/p1.jpg Graphic file (type jpg)
 
 <use images/multiview/p1.jpg>
-Package pdftex.def Info: images/multiview/p1.jpg used on input line 143.
+Package pdftex.def Info: images/multiview/p1.jpg used on input line 147.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
-<images/multiview/p2.jpg, id=19, 2794.44pt x 1862.96pt>
+<images/multiview/p2.jpg, id=45, 2794.44pt x 1862.96pt>
 File: images/multiview/p2.jpg Graphic file (type jpg)
 
 <use images/multiview/p2.jpg>
-Package pdftex.def Info: images/multiview/p2.jpg used on input line 146.
+Package pdftex.def Info: images/multiview/p2.jpg used on input line 150.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
 
-<images/multiview/p3.jpg, id=20, 2794.44pt x 1862.96pt>
+<images/multiview/p3.jpg, id=46, 2794.44pt x 1862.96pt>
 File: images/multiview/p3.jpg Graphic file (type jpg)
 
 <use images/multiview/p3.jpg>
-Package pdftex.def Info: images/multiview/p3.jpg used on input line 149.
+Package pdftex.def Info: images/multiview/p3.jpg used on input line 153.
 (pdftex.def)             Requested size: 71.1415pt x 47.4153pt.
-
-Underfull \hbox (badness 10000) in paragraph at lines 157--158
-
- []
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 159--160
-
- []
-
 
 Underfull \hbox (badness 10000) in paragraph at lines 161--162
 
  []
 
-[1{/usr/local/texlive/2016/texmf-var/fonts/map/pdftex/updmap/pdftex.map}
 
-
-]
-<images/undistorted/p1.jpg, id=44, 2782.395pt x 1837.86626pt>
-File: images/undistorted/p1.jpg Graphic file (type jpg)
-
-<use images/undistorted/p1.jpg>
-Package pdftex.def Info: images/undistorted/p1.jpg used on input line 194.
-(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
-
-<images/undistorted/p2.jpg, id=45, 2782.395pt x 1837.86626pt>
-File: images/undistorted/p2.jpg Graphic file (type jpg)
-
-<use images/undistorted/p2.jpg>
-Package pdftex.def Info: images/undistorted/p2.jpg used on input line 197.
-(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
-
-<images/undistorted/p3.jpg, id=46, 2782.395pt x 1837.86626pt>
-File: images/undistorted/p3.jpg Graphic file (type jpg)
-
-<use images/undistorted/p3.jpg>
-Package pdftex.def Info: images/undistorted/p3.jpg used on input line 200.
-(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
-
-<images/pick.png, id=47, 712.6625pt x 500.87125pt>
-File: images/pick.png Graphic file (type png)
- <use images/pick.png>
-Package pdftex.def Info: images/pick.png used on input line 209.
-(pdftex.def)             Requested size: 237.13594pt x 166.6637pt.
-
-<images/epipolar/1-2-1.png, id=49, 578.16pt x 433.62pt>
-File: images/epipolar/1-2-1.png Graphic file (type png)
-
-<use images/epipolar/1-2-1.png>
-Package pdftex.def Info: images/epipolar/1-2-1.png used on input line 219.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
-
-<images/epipolar/1-2-2.png, id=50, 578.16pt x 433.62pt>
-File: images/epipolar/1-2-2.png Graphic file (type png)
-
-<use images/epipolar/1-2-2.png>
-Package pdftex.def Info: images/epipolar/1-2-2.png used on input line 222.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
-
-<images/epipolar/1-3-1.png, id=51, 578.16pt x 433.62pt>
-File: images/epipolar/1-3-1.png Graphic file (type png)
-
-<use images/epipolar/1-3-1.png>
-Package pdftex.def Info: images/epipolar/1-3-1.png used on input line 225.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
-
-<images/epipolar/1-3-3.png, id=52, 578.16pt x 433.62pt>
-File: images/epipolar/1-3-3.png Graphic file (type png)
-
-<use images/epipolar/1-3-3.png>
-Package pdftex.def Info: images/epipolar/1-3-3.png used on input line 228.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
-
-<images/epipolar/2-3-2.png, id=53, 578.16pt x 433.62pt>
-File: images/epipolar/2-3-2.png Graphic file (type png)
-
-<use images/epipolar/2-3-2.png>
-Package pdftex.def Info: images/epipolar/2-3-2.png used on input line 231.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
-
-<images/epipolar/2-3-3.png, id=54, 578.16pt x 433.62pt>
-File: images/epipolar/2-3-3.png Graphic file (type png)
-
-<use images/epipolar/2-3-3.png>
-Package pdftex.def Info: images/epipolar/2-3-3.png used on input line 234.
-(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
- [2 <./images/chessboard/p1.jpg> <./images/chessboard/p2.jpg> <./images/chessbo
-ard/p3.jpg> <./images/chessboard/p4.jpg> <./images/chessboard/p5.jpg> <./images
-/chessboard/p6.jpg> <./images/chessboard/p7.jpg> <./images/chessboard/p8.jpg> <
-./images/chessboard/p9.jpg> <./images/chessboard/p10.jpg> <./images/chessboard/
-p11.jpg> <./images/chessboard/p12.jpg> <./images/multiview/p1.jpg> <./images/mu
-ltiview/p2.jpg> <./images/multiview/p3.jpg> <./images/undistorted/p1.jpg> <./im
-ages/undistorted/p2.jpg> <./images/undistorted/p3.jpg> <./images/pick.png>]
-
-LaTeX Warning: Reference `sec:create' on page 3 undefined on input line 257.
-
-
-LaTeX Warning: Reference `sec:reproduce' on page 3 undefined on input line 257.
-
-
-
-Underfull \hbox (badness 10000) in paragraph at lines 256--258
+Underfull \hbox (badness 10000) in paragraph at lines 163--164
 
  []
 
 
-Underfull \hbox (badness 1466) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 165--166
+
+ []
+
+<images/undistorted/p1.jpg, id=49, 2782.395pt x 1837.86626pt>
+File: images/undistorted/p1.jpg Graphic file (type jpg)
+
+<use images/undistorted/p1.jpg>
+Package pdftex.def Info: images/undistorted/p1.jpg used on input line 198.
+(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
+
+<images/undistorted/p2.jpg, id=50, 2782.395pt x 1837.86626pt>
+File: images/undistorted/p2.jpg Graphic file (type jpg)
+
+<use images/undistorted/p2.jpg>
+Package pdftex.def Info: images/undistorted/p2.jpg used on input line 201.
+(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
+
+<images/undistorted/p3.jpg, id=51, 2782.395pt x 1837.86626pt>
+File: images/undistorted/p3.jpg Graphic file (type jpg)
+
+<use images/undistorted/p3.jpg>
+Package pdftex.def Info: images/undistorted/p3.jpg used on input line 204.
+(pdftex.def)             Requested size: 71.1415pt x 46.97293pt.
+
+<images/pick.png, id=52, 712.6625pt x 500.87125pt>
+File: images/pick.png Graphic file (type png)
+ <use images/pick.png>
+Package pdftex.def Info: images/pick.png used on input line 213.
+(pdftex.def)             Requested size: 237.13594pt x 166.6637pt.
+
+<images/epipolar/1-2-1.png, id=54, 578.16pt x 433.62pt>
+File: images/epipolar/1-2-1.png Graphic file (type png)
+
+<use images/epipolar/1-2-1.png>
+Package pdftex.def Info: images/epipolar/1-2-1.png used on input line 223.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+
+<images/epipolar/1-2-2.png, id=55, 578.16pt x 433.62pt>
+File: images/epipolar/1-2-2.png Graphic file (type png)
+
+<use images/epipolar/1-2-2.png>
+Package pdftex.def Info: images/epipolar/1-2-2.png used on input line 226.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+
+<images/epipolar/1-3-1.png, id=56, 578.16pt x 433.62pt>
+File: images/epipolar/1-3-1.png Graphic file (type png)
+
+<use images/epipolar/1-3-1.png>
+Package pdftex.def Info: images/epipolar/1-3-1.png used on input line 229.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+
+<images/epipolar/1-3-3.png, id=57, 578.16pt x 433.62pt>
+File: images/epipolar/1-3-3.png Graphic file (type png)
+
+<use images/epipolar/1-3-3.png>
+Package pdftex.def Info: images/epipolar/1-3-3.png used on input line 232.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+
+<images/epipolar/2-3-2.png, id=58, 578.16pt x 433.62pt>
+File: images/epipolar/2-3-2.png Graphic file (type png)
+
+<use images/epipolar/2-3-2.png>
+Package pdftex.def Info: images/epipolar/2-3-2.png used on input line 235.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+
+<images/epipolar/2-3-3.png, id=59, 578.16pt x 433.62pt>
+File: images/epipolar/2-3-3.png Graphic file (type png)
+
+<use images/epipolar/2-3-3.png>
+Package pdftex.def Info: images/epipolar/2-3-3.png used on input line 238.
+(pdftex.def)             Requested size: 106.71045pt x 80.02657pt.
+ [2 <./images/multiview/p1.jpg> <./images/multiview/p2.jpg> <./images/multiview
+/p3.jpg> <./images/undistorted/p1.jpg> <./images/undistorted/p2.jpg> <./images/
+undistorted/p3.jpg> <./images/pick.png>]
+
+LaTeX Warning: Reference `sec:create' on page 3 undefined on input line 261.
+
+
+LaTeX Warning: Reference `sec:reproduce' on page 3 undefined on input line 261.
+
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 260--262
+
+ []
+
+
+Underfull \hbox (badness 1466) in paragraph at lines 263--264
 []\OT1/ptm/m/n/10 Thanks to L[]T[]X for pro-vid-ing such a great doc-u-
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 259--260
+Underfull \hbox (badness 10000) in paragraph at lines 263--264
 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 263.
-[3
-
- <./images/epipolar/1-2-1.png> <./images/epipolar/1-2-2.png> <./images/epipolar
-/1-3-1.png> <./images/epipolar/1-3-3.png> <./images/epipolar/2-3-2.png> <./imag
-es/epipolar/2-3-3.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 263.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 267.
+[3 <./images/epipolar/1-2-1.png> <./images/epipolar/1-2-2.png> <./images/epipol
+ar/1-3-1.png> <./images/epipolar/1-3-3.png> <./images/epipolar/2-3-2.png> <./im
+ages/epipolar/2-3-3.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 267.
  (./report.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 263.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 263.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 267.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 267.
 
 
 LaTeX Warning: There were undefined references.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 263.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 267.
  ) 
 Here is how much of TeX's memory you used:
  8759 strings out of 493014
  129056 string characters out of 6133351
- 235321 words of memory out of 5000000
+ 233321 words of memory out of 5000000
  12094 multiletter control sequences out of 15000+600000
  26768 words of font info for 65 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -751,7 +746,7 @@ ve/2016/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb></usr/local/texlive
 6/texmf-dist/fonts/type1/urw/courier/ucrr8a.pfb></usr/local/texlive/2016/texmf-
 dist/fonts/type1/urw/times/utmb8a.pfb></usr/local/texlive/2016/texmf-dist/fonts
 /type1/urw/times/utmr8a.pfb>
-Output written on report.pdf (3 pages, 32351571 bytes).
+Output written on report.pdf (3 pages, 32352081 bytes).
 PDF statistics:
  139 PDF objects out of 1000 (max. 8388607)
  92 compressed objects within 1 object stream
